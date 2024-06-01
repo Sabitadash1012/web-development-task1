@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+   background:url(megh.jpg);
+   background-size: cover;
+   text-transform: uppercase;
+}
+nav{
+    width:100%;
+    height:10vh;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding:10px 20px;
+    font-size: 20px;
+}
+.register a{
+    text-decoration: none;
+    color:white;
+    padding:10px 20px;
+    font-size: 20px;
+    background-color: indianred;
+    border-radius: 8px;
+}
+main{
+    width: 100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section h3{
+    font-size: 35px;
+     font-weight: 200;
+     color:white;
+     letter-spacing: 3px;
+}
+section {
+    color:white;
+    background-size: cover;
+    text-transform: uppercase;
+
+}
+.btn{
+    background-color: blue;
+    border-radius: 8px;
+
+}
+
+
